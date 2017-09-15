@@ -1,8 +1,7 @@
 # Gender Ratio Calculator for Facebook Events (Python)
-fbratio.py is a small Python script that pulls guest information for a Facebook event, and then determines their gender using first names through calls to the [Genderize.io API](https://genderize.io/).
+fbratio.py is a small Python script that pulls guest information for a Facebook event, and then determines their gender using first names through calls to the [Genderize.io API](https://genderize.io/). Works with Facebook's Graph API, no need to install Chrome extensions or viewing only the "Going" list.
 ## Installation
-* Make sure you have the latest version of [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/#lower-level-virtualenv) installed.
-* Install the [Facebook SDK for Python](http://facebook-sdk.readthedocs.io/en/latest/install.html#installing-from-git) under a virtualenv.
+* Install the [Facebook SDK for Python](http://facebook-sdk.readthedocs.io/en/latest/install.html#installing-from-git) under a virtualenv, or your Python libraries.
 ## Running the Program
 ### Getting a User Access Token
 1. Go to Facebook for Developer's [Graph API Explorer](https://developers.facebook.com/tools/explorer/).
