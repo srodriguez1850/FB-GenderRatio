@@ -22,3 +22,4 @@ https://www.facebook.com/events/(EventID)/
 * -hc: Runs the hardcoded token and event in the header of ratio.py
 * -i [token] [eventid]: Runs the inline arguments instead of prompting.
 * -g: Prints the names of all guests.
+* -n: No call to the Genderize.io API
