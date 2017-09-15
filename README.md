@@ -7,8 +7,8 @@ fbratio.py is a small Python script that pulls guest information for a Facebook 
 ### Getting a User Access Token
 1. Go to Facebook for Developer's [Graph API Explorer](https://developers.facebook.com/tools/explorer/).
 2. On the top right of the Graph API Explorer, click on Get Token -> Get User Access Token.
-3. If the event is owned by a page, check "manage_pages" and "pages_show_list" under Events, Groups & Pages.
-4. Click Get Access Token; Facebook will request the appropriate permissions (profile information, events, pages). **Facebook needs permissions to make the correct calls to the Graph API**.
+3. Check "user_events" under Events, Groups & Pages.
+4. Click Get Access Token; Facebook will request the appropriate permissions. **Facebook needs permissions to retrieve information from the Graph API**.
 5. The User Access Token will appear in the textbox located in the top, *copy the token* and save for later.
 ### Executing the Script
 In a terminal window, run the ratio.py with the following line.
