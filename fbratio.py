@@ -81,15 +81,15 @@ def get_ratio(token, eventid, args):
 
 	print ''
 	if args.g:
-		print 'Attending (' + str(len(a_fn)) + ')'
-		print '---------'
+		print 'Attending / Going (' + str(len(a_fn)) + ')'
+		print '-----------------'
 		for g in a_fn:
 			print g
 
 		print ''
 
-		print 'Interested (' + str(len(i_fn)) + ')'
-		print '----------'
+		print 'Interested / Maybe (' + str(len(i_fn)) + ')'
+		print '------------------'
 		for g in i_fn:
 			print g
 		print ''
