@@ -142,8 +142,8 @@ def get_ratio(token, eventid, args):
 	print 'Total Reliability : ' + str(prob)
 
 	print ''
-	print 'M/F Ratio: ' + str(males/females) if females > 0 else 0
-	print 'F/M Ratio: ' + str(females/males) if males > 0 else 0
+	print 'M/F Ratio: ' + (str(males/females) if females > 0 else str(0))
+	print 'F/M Ratio: ' + (str(females/males) if males > 0 else str(0))
 
 def get_genders(names):
 	"""
