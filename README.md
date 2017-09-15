@@ -19,6 +19,6 @@ The program will then ask for the User Access Token and Facebook event identifie
 https://www.facebook.com/events/(EventID)/
 ~~~
 ### Command Line Arguments
-* -h: Runs the hardcoded token and event in the header of ratio.py
+* -hc: Runs the hardcoded token and event in the header of ratio.py
 * -i [token] [eventid]: Runs the inline arguments instead of prompting.
 * -g: Prints the names of all guests.
